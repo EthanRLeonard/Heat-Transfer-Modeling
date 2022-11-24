@@ -1,0 +1,9 @@
+function blackfig()
+figure1=figure('Color',[0 0 0],'InvertHardcopy','off');
+axes1 = axes('Parent',figure1,...
+'YColor',[1 1 1],...
+'XColor',[1 1 1],...
+'Color',[0 0 0]);
+hold(axes1,'all');
+end
+
